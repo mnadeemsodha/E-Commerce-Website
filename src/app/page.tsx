@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-
+import Image from "next/image";
 const Home = () => {
   return (
     <div className="bg-black text-white font-sans">
@@ -24,10 +24,10 @@ const Home = () => {
           Over 30 years of culinary excellence.
         </p>
         <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-4">
-          <img src="/cburger.png" alt="Dish 1" className="rounded shadow-lg" />
-          <img src="/alfredopasta.png" alt="Dish 2" className="rounded shadow-lg" />
-          <img src="/grilledsalmon.png" alt="Dish 3" className="rounded shadow-lg" />
-          <img src="/lemonsalad.png" alt="Dish 4" className="rounded shadow-lg" />
+          <Image src="/cburger.png" alt="Dish 1" className="rounded shadow-lg" />
+          <Image src="/alfredopasta.png" alt="Dish 2" className="rounded shadow-lg" />
+          <Image src="/grilledsalmon.png" alt="Dish 3" className="rounded shadow-lg" />
+          <Image src="/lemonsalad.png" alt="Dish 4" className="rounded shadow-lg" />
         </div>
       </section>
 

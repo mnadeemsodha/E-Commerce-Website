@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 interface CartItem {
   id: number;
   name: string;
@@ -63,7 +64,7 @@ const Cart: React.FC = () => {
               {cartItems.map((item) => (
                 <tr key={item.id} className="border-b">
                   <td className="py-3 px-4 flex items-center space-x-4">
-                    <img
+                    <Image
                       src={item.image}
                       alt={item.name}
                       className="w-16 h-16 object-cover rounded-lg"

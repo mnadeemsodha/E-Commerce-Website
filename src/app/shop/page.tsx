@@ -1,7 +1,5 @@
 import React from "react";
-import Link from "next/link";
-import { link } from "fs";
-
+import Image from "next/image";
 const Shop = () => {
   return (
     <div className="bg-white text-gray-800 font-sans">
@@ -77,7 +75,7 @@ const Shop = () => {
                   key={index}
                   className="border p-4 rounded hover:shadow-lg"
                 >
-                  <img
+                  <Image
                     src={product.imgSrc}
                     alt={product.name}
                     className="w-full h-40 object-cover rounded"

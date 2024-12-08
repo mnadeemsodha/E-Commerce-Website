@@ -1,10 +1,8 @@
 import React from 'react';
 import styles from './HomePage.module.css';
+import Image from 'next/image';
 
-
-interface HomePageProps {
-  // Add any necessary props here
-}
+interface HomePageProps {}
 
 const HomePageComponent: React.FC<HomePageProps> = () => {
   return (
@@ -22,7 +20,7 @@ const HomePageComponent: React.FC<HomePageProps> = () => {
           <button className={styles.heroButton}>Order Now</button>
         </div>
         <div className={styles.heroImage}>
-          <img src="/hero-image.jpg" alt="Hero Image" className={styles.heroImage} />
+          <Image src="/hero-image.jpg" alt="Hero Image" className={styles.heroImage} />
         </div>
       </div>
 
@@ -30,11 +28,11 @@ const HomePageComponent: React.FC<HomePageProps> = () => {
         <h2 className={styles.categoriesHeading}>Our Culinary Delights</h2>
         <div className={styles.categoryGrid}>
           <div className={styles.categoryItem}>
-            <img src="/category-1.jpg" alt="Category 1" className={styles.categoryImage} />
+            <Image src="/category-1.jpg" alt="Category 1" className={styles.categoryImage} />
             <h3 className={styles.categoryTitle}>Category 1</h3>
           </div>
           <div className={styles.categoryItem}>
-            <img src="/category-2.jpg" alt="Category 2" className={styles.categoryImage} />
+            <Image src="/category-2.jpg" alt="Category 2" className={styles.categoryImage} />
             <h3 className={styles.categoryTitle}>Category 2</h3>
           </div>
           {/* Add more category items as needed */}
@@ -43,7 +41,7 @@ const HomePageComponent: React.FC<HomePageProps> = () => {
 
       <div className={styles.chefSection}>
         <div className={styles.chefImage}>
-          <img src="/chef-image.jpg" alt="Chef Image" className={styles.chefImage} />
+          <Image src="/chef-image.jpg" alt="Chef Image" className={styles.chefImage} />
         </div>
         <div className={styles.chefText}>
           <h2 className={styles.chefHeading}>From Our Chef</h2>
@@ -61,7 +59,7 @@ const HomePageComponent: React.FC<HomePageProps> = () => {
         <h2 className={styles.latestDishesHeading}>Latest Dishes & Deals</h2>
         <div className={styles.latestDishesGrid}>
           <div className={styles.latestDishItem}>
-            <img src="/dish-1.jpg" alt="Dish 1" className={styles.latestDishImage} />
+            <Image src="/dish-1.jpg" alt="Dish 1" className={styles.latestDishImage} />
             <h3 className={styles.latestDishTitle}>Dish 1</h3>
             <p className={styles.latestDishDescription}>
               Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam

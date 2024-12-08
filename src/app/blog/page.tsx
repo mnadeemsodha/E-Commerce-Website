@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const BlogDetails: React.FC = () => (
   <main className="bg-gray-50">
     {/* Header */}
@@ -11,10 +11,10 @@ const BlogDetails: React.FC = () => (
     </header>
 
     {/* Blog Content */}
-    <div className="max-w-6xl mx-auto py-10 px-4 grid lg:grid-cols-3 gap-8">
+    <div className="max-w-6xl mx-auto py-10 px-4 grid lg:grid-cols-3 gap-8">\
       {/* Main Content */}
       <article className="lg:col-span-2">
-        <img
+        <Image
           src="/blog.png"
           alt="Blog"
           className="rounded-lg mb-6"

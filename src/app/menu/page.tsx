@@ -1,6 +1,5 @@
 import React from "react";
-import Link from "next/link";
-
+import Image from "next/image";
 const Menu = () => {
   return (
     <div className="bg-white text-gray-800 font-sans">
@@ -17,7 +16,7 @@ const Menu = () => {
       {/* Starter Menu */}
       <section className="container mx-auto py-10 px-6">
         <div className="grid md:grid-cols-2 gap-6">
-          <img
+          <Image
             src="/starterdish.png"
             alt="Starter Dish"
             className="w-full rounded shadow-lg"
@@ -68,7 +67,7 @@ const Menu = () => {
               <p className="text-sm text-gray-500">580 CAL</p>
             </li>
           </ul>
-          <img
+          <Image
             src="/maincourse.png"
             alt="Main Course"
             className="w-full rounded shadow-lg"
