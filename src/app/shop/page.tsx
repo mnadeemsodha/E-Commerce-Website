@@ -56,19 +56,26 @@ const Shop = () => {
                   name: "Fresh Lime",
                   price: "$38.00",
                   originalPrice: "$45.00",
-                  imgSrc: "/freshlime.jpg",
+                  imgSrc: "/lime.png",
+                  width: 400,
+                  height: 400
+                         
                 
                 },
                 {
                   name: "Chocolate Muffin",
                   price: "$28.00",
                   originalPrice: "$45.00",
-                  imgSrc: "/muffin.jpg",
+                  imgSrc: "/chocomuffin.jpg",
+                  width: 400,
+                  height: 400
                 },
                 {
                   name: "Burger",
                   price: "$21.00",
                   imgSrc: "/burger.png",
+                  width: 400,
+                  height: 400
                 },
               ].map((product, index) => (
                 <div
@@ -78,6 +85,8 @@ const Shop = () => {
                   <Image
                     src={product.imgSrc}
                     alt={product.name}
+                    width={product.width}
+                    height={product.height}
                     className="w-full h-40 object-cover rounded"
                   />
                   <h3 className="text-lg font-bold mt-4">{product.name}</h3>

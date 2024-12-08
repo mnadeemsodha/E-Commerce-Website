@@ -15,7 +15,7 @@ const BlogDetails: React.FC = () => (
       {/* Main Content */}
       <article className="lg:col-span-2">
         <Image
-          src="/blog.png"
+          src="/blog.png" width={400} height={800}
           alt="Blog"
           className="rounded-lg mb-6"
         />

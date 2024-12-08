@@ -24,10 +24,12 @@ const Home = () => {
           Over 30 years of culinary excellence.
         </p>
         <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-4">
-          <Image src="/cburger.png" alt="Dish 1" className="rounded shadow-lg" />
-          <Image src="/alfredopasta.png" alt="Dish 2" className="rounded shadow-lg" />
-          <Image src="/grilledsalmon.png" alt="Dish 3" className="rounded shadow-lg" />
-          <Image src="/lemonsalad.png" alt="Dish 4" className="rounded shadow-lg" />
+          <Image src="/burger5.png" alt="Dish 1" className="rounded shadow-lg" width={400} height={400} />
+          <Image src="/alfredopasta.png" alt="Dish 2" className="rounded shadow-lg" width={400} height={400} />
+          <Image src="/grilledsalmon.png" alt="Dish 3" className="rounded shadow-lg" width={400} height={400}  />
+           
+          
+          <Image src="/lemonsalad.png" alt="Dish 4" className="rounded shadow-lg" width={400} height={400} />
         </div>
       </section>
 

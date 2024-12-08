@@ -17,7 +17,7 @@ const Menu = () => {
       <section className="container mx-auto py-10 px-6">
         <div className="grid md:grid-cols-2 gap-6">
           <Image
-            src="/starterdish.png"
+            src="/starterdish.png" width={400} height={400}
             alt="Starter Dish"
             className="w-full rounded shadow-lg"
           />
@@ -68,7 +68,7 @@ const Menu = () => {
             </li>
           </ul>
           <Image
-            src="/maincourse.png"
+            src="/maincourse.png" width={400} height={400}
             alt="Main Course"
             className="w-full rounded shadow-lg"
           />

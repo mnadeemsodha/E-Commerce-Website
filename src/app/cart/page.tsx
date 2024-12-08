@@ -12,8 +12,8 @@ interface CartItem {
 
 const Cart: React.FC = () => {
   const [cartItems, setCartItems] = useState<CartItem[]>([
-    { id: 1, name: "Burger", price: 35, quantity: 1, image: "burger.png" },
-    { id: 2, name: "Fresh Lime", price: 25, quantity: 1, image: "/freshlime.jpg" },
+    { id: 1, name: "Burger", price: 35, quantity: 1, image: "/burger.png" },
+    { id: 2, name: "Fresh Lime", price: 25, quantity: 1, image: "/lime.png" },
     { id: 3, name: "Pizza", price: 15, quantity: 1, image: "/pizza.jpg" },
     { id: 4, name: "Chocolate Muffin", price: 45, quantity: 1, image: "/chocomuffin.jpg" },
     { id: 5, name: "Cheese Butter", price: 15, quantity: 1, image: "/cheesebutter.jpg" },
@@ -64,7 +64,7 @@ const Cart: React.FC = () => {
               {cartItems.map((item) => (
                 <tr key={item.id} className="border-b">
                   <td className="py-3 px-4 flex items-center space-x-4">
-                    <Image
+                    <Image width={100} height={100}
                       src={item.image}
                       alt={item.name}
                       className="w-16 h-16 object-cover rounded-lg"
