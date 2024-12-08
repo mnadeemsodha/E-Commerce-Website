@@ -34,8 +34,8 @@ const BlogDetails: React.FC = () => (
 
         {/* Quote Section */}
         <blockquote className="border-l-4 border-orange-500 pl-4 italic text-gray-600 my-6">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </blockquote>
 
         <p className="text-gray-700 leading-7">

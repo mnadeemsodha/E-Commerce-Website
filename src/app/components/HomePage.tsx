@@ -2,7 +2,8 @@ import React from 'react';
 import styles from './HomePage.module.css';
 import Image from 'next/image';
 
-interface HomePageProps {}
+type HomePageProps = object; 
+
 
 const HomePageComponent: React.FC<HomePageProps> = () => {
   return (
