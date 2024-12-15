@@ -1,4 +1,4 @@
-import { MdOutlineShoppingBag } from "react-icons/md";
+
 import React from "react";
 import Image from "next/image";
 const Menu = () => {
