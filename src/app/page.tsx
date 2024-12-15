@@ -3,11 +3,21 @@ import React from "react";
 import Image from "next/image";
 const Home = () => {
   return (
-    <div className="bg-black text-white font-sans">
+    <div
+     style={{ backgroundImage: "url('/back2.jpg')",
+             backgroundSize: "cover",
+             backgroundPosition: "center",
+             backgroundRepeat: "no-repeat",
+             minHeight: "100vh",
+             display: "flex",
+             flexDirection: "column",
+             width: "100%"
+      }} 
+      >
       {/* Hero Section */}
       <header className="flex flex-col items-center text-center p-10">
         <h1 className="text-4xl font-bold">
-          The Art of <span className="text-yellow-500">speed food Quality</span>
+         <span className="text-white">The Art of </span> <span className="text-yellow-500">speed food Quality</span>
         </h1>
         <p className="mt-4 text-gray-300">
           Experience the best cuisines with speed and quality in every bite.
@@ -19,17 +29,15 @@ const Home = () => {
 
       {/* Featured Dishes Section */}
       <section className="p-10">
-        <h2 className="text-2xl font-bold text-center">Extraordinary Taste</h2>
+        <h2 className="text-2xl font-bold text-center"><span className="text-white">Extraordinary Taste</span></h2>
         <p className="text-center text-gray-300 mt-2">
           Over 30 years of culinary excellence.
         </p>
         <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-4">
-          <Image src="/burger5.png" alt="Dish 1" className="rounded shadow-lg" width={400} height={400} />
-          <Image src="/alfredopasta.png" alt="Dish 2" className="rounded shadow-lg" width={400} height={400} />
-          <Image src="/grilledsalmon.png" alt="Dish 3" className="rounded shadow-lg" width={400} height={400}  />
-           
-          
-          <Image src="/lemonsalad.png" alt="Dish 4" className="rounded shadow-lg" width={400} height={400} />
+          <Image src="/b1.png" alt="Dish 1" className="rounded shadow-lg" width={400} height={200} />
+          <Image src="/a1.png" alt="Dish 2" className="rounded shadow-lg" width={400} height={400} />
+          <Image src="/g1.png" alt="Dish 3" className="rounded shadow-lg" width={400} height={400}  />
+          <Image src="/l2.png" alt="Dish 4" className="rounded shadow-lg" width={400} height={400} />
         </div>
       </section>
 
@@ -57,7 +65,7 @@ const Home = () => {
 
       {/* Menu Section */}
       <section className="p-10">
-        <h2 className="text-2xl font-bold text-center">From Our Menu</h2>
+        <h2 className="text-2xl font-bold text-center"><span className="text-white">From Our Menu</span></h2>
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-6">
           <div className="bg-gray-800 p-4 rounded text-center">
             <h3 className="text-xl font-bold text-yellow-500">Lemon Salad</h3>

@@ -2,7 +2,18 @@ import React from "react";
 import Image from "next/image";
 const Shop = () => {
   return (
-    <div className="bg-white text-gray-800 font-sans">
+    <div
+    style={{ backgroundImage: "url('/back2.jpg')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      minHeight: "100vh",
+      display: "flex",
+      flexDirection: "column",
+      width: "100%"
+}} 
+>
+
       
 
       {/* Hero Section */}
@@ -50,7 +61,7 @@ const Shop = () => {
           {/* Products Section */}
           
           <div className="md:col-span-3">
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 bg-white" >
               {[
                 {
                   name: "Fresh Lime",
@@ -59,8 +70,6 @@ const Shop = () => {
                   imgSrc: "/lime.png",
                   width: 400,
                   height: 400
-                         
-                
                 },
                 {
                   name: "Chocolate Muffin",
@@ -77,6 +86,23 @@ const Shop = () => {
                   width: 400,
                   height: 400
                 },
+                {
+                  name: "Pizza",
+                  price: "$25.00",
+                  imgSrc: "/p1.png",
+                  width: 400,
+                  height: 400
+                },
+                {
+                  name:"chinese",
+                  price: "$23.00",
+                  imgSrc: "/",
+                  width: 400,
+                  height: 400
+                },
+                
+
+            
               ].map((product, index) => (
                 <div
                   key={index}

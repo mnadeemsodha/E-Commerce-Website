@@ -14,7 +14,7 @@ const Cart: React.FC = () => {
   const [cartItems, setCartItems] = useState<CartItem[]>([
     { id: 1, name: "Burger", price: 35, quantity: 1, image: "/burger.png" },
     { id: 2, name: "Fresh Lime", price: 25, quantity: 1, image: "/lime.png" },
-    { id: 3, name: "Pizza", price: 15, quantity: 1, image: "/pizza.jpg" },
+    { id: 3, name: "Pizza", price: 15, quantity: 1, image: "/p1.png" },
     { id: 4, name: "Chocolate Muffin", price: 45, quantity: 1, image: "/chocomuffin.jpg" },
     { id: 5, name: "Cheese Butter", price: 15, quantity: 1, image: "/cheesebutter.jpg" },
   ]);
