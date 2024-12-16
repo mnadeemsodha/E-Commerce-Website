@@ -12,11 +12,9 @@ const Shop = () => {
       flexDirection: "column",
       width: "100%"
 }} 
->
+>     
 
       
-
-      {/* Hero Section */}
       <section className="bg-gray-100 py-10">
         <div className="text-center">
           <h2 className="text-4xl font-bold">Our Shop</h2>
@@ -30,25 +28,25 @@ const Shop = () => {
           
           <aside className="md:col-span-1">
             <div className="mb-6">
-              <h3 className="font-bold text-lg">Search Product</h3>
+              <h3 className="font-bold text-lg text-white">Search Product</h3>
               <input
                 type="text"
                 placeholder="Search..."
                 className="w-full p-2 border border-gray-300 rounded mt-2"
               />
             </div>
-            <div className="mb-6">
-              <h3 className="font-bold text-lg">Category</h3>
+            <div className="mb-6">  
+              <h3 className="font-bold text-lg text-white">Category</h3>
               <ul className="space-y-2 mt-2">
-                <li className="text-gray-600">Sandwiches</li>
-                <li className="text-gray-600">Burger</li>
-                <li className="text-gray-600">Pizza</li>
-                <li className="text-gray-600">Drinks</li>
-                <li className="text-gray-600">Non-Veg</li>
+                <li className="text-white">Sandwiches</li>
+                <li className="text-white">Burger</li>
+                <li className="text-white">Pizza</li>
+                <li className="text-white">Drinks</li>
+                <li className="text-white">Non-Veg</li>
               </ul>
             </div>
             <div>
-              <h3 className="font-bold text-lg">Filter By Price</h3>
+              <h3 className="font-bold text-lg text-white">Filter By Price</h3>
               <input
                 type="range"
                 min="0"
@@ -94,9 +92,16 @@ const Shop = () => {
                   height: 400
                 },
                 {
-                  name:"chinese",
+                  name:"Chinese",
                   price: "$23.00",
-                  imgSrc: "/",
+                  imgSrc: "/chinese.jpg",
+                  width: 400,
+                  height: 400
+                },
+                {
+                  name:"Sandwich",
+                  price: "$15.00",
+                  imgSrc: "/sandwich.jpg",
                   width: 400,
                   height: 400
                 },
