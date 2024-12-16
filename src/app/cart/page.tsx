@@ -38,7 +38,7 @@ const Cart: React.FC = () => {
 
   return (
     <main className="bg-gray-50 min-h-screen">
-      {/* Header */}
+      
       <header className="bg-black text-white py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold">Shopping Cart</h1>
@@ -46,9 +46,9 @@ const Cart: React.FC = () => {
         </div>
       </header>
 
-      {/* Cart Content */}
+      
       <div className="max-w-6xl mx-auto py-10 px-4">
-        {/* Cart Table */}
+        
         <div className="overflow-x-auto">
           <table className="min-w-full bg-white shadow-lg rounded-lg">
             <thead>
@@ -110,9 +110,9 @@ const Cart: React.FC = () => {
           </table>
         </div>
 
-        {/* Coupon and Summary */}
+        
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-10">
-          {/* Coupon Code */}
+          
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-lg mb-4">Coupon Code</h3>
             <p className="text-gray-500 mb-4">
@@ -130,7 +130,7 @@ const Cart: React.FC = () => {
             </div>
           </div>
 
-          {/* Total Bill */}
+          
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-lg mb-4">Total Bill</h3>
             <ul className="space-y-2">

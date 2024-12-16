@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const BlogDetails: React.FC = () => (
   <main className="bg-gray-50">
-    {/* Header */}
+    
     <header className="bg-black text-white py-16">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h1 className="text-4xl font-bold">Blog Details</h1>
@@ -10,9 +10,9 @@ const BlogDetails: React.FC = () => (
       </div>
     </header>
 
-    {/* Blog Content */}
+    
     <div className="max-w-6xl mx-auto py-10 px-4 grid lg:grid-cols-3 gap-8">\
-      {/* Main Content */}
+      
       <article className="lg:col-span-2">
         <Image
           src="/blog.png" width={400} height={800}
@@ -32,7 +32,7 @@ const BlogDetails: React.FC = () => (
           magna congue condimentum placerat habitasse...
         </p>
 
-        {/* Quote Section */}
+        
         <blockquote className="border-l-4 border-orange-500 pl-4 italic text-gray-600 my-6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -43,7 +43,7 @@ const BlogDetails: React.FC = () => (
           eiusmod tempor incididunt...
         </p>
 
-        {/* Comments Section */}
+        
         <section className="mt-10">
           <h3 className="text-2xl font-bold">Comments (3)</h3>
           <div className="mt-4 space-y-6">
@@ -64,7 +64,7 @@ const BlogDetails: React.FC = () => (
           </div>
         </section>
 
-        {/* Add Comment */}
+        
         <form className="mt-8 space-y-4">
           <h3 className="text-2xl font-bold">Post a Comment</h3>
           <div className="flex space-x-4">
@@ -90,15 +90,15 @@ const BlogDetails: React.FC = () => (
         </form>
       </article>
 
-      {/* Sidebar */}
+      
       <aside>
-        {/* Author Info */}
+        
         <div className="bg-white p-6 rounded-lg shadow mb-6">
           <h3 className="font-bold text-lg">Prince Miyako</h3>
           <p className="text-gray-500">Blogger / Photographer</p>
         </div>
 
-        {/* Recent Posts */}
+        
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="font-bold text-lg mb-4">Recent Posts</h3>
           {Array(3).fill(0).map((_, index) => (

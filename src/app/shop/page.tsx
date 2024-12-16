@@ -24,10 +24,10 @@ const Shop = () => {
         </div>
       </section>
 
-      {/* Shop Content */}
+      
       <section className="container mx-auto py-10 px-6">
         <div className="grid md:grid-cols-4 gap-6">
-          {/* Filters Section */}
+          
           <aside className="md:col-span-1">
             <div className="mb-6">
               <h3 className="font-bold text-lg">Search Product</h3>
@@ -58,7 +58,7 @@ const Shop = () => {
             </div>
           </aside>
 
-          {/* Products Section */}
+          
           
           <div className="md:col-span-3">
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 bg-white" >
@@ -129,7 +129,7 @@ const Shop = () => {
               ))}
             </div>
 
-            {/* Pagination */}
+            
             <div className="flex justify-center space-x-4 mt-10">
               <button className="p-2 border rounded">1</button>
               <button className="p-2 border rounded bg-yellow-500 text-white">

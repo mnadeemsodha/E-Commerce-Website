@@ -2,7 +2,6 @@ import { MdOutlineShoppingBag } from 'react-icons/md';
 import React from 'react';
 import Link from 'next/link';
 import { Input } from "@/components/ui/input"
-import { CiSearch } from 'react-icons/ci';
 
 
 const Header = () => {
@@ -21,10 +20,9 @@ const Header = () => {
               <li><Link legacyBehavior href="/blog"><a>Blog</a></Link></li>
               <li><Link legacyBehavior href="/about"><a>About</a></Link></li>
               <li><Link legacyBehavior href="/shop"><a>Shop</a></Link></li>
-              <li><Link legacyBehavior href="/cart"><a> <MdOutlineShoppingBag /></a></Link></li>
               <div className='flex items-center'>
               <Input type="text" placeholder="Search"/>
-              <CiSearch/>
+              <li><Link legacyBehavior href="/cart"><a> <MdOutlineShoppingBag /></a></Link></li>
                   
               </div>    
             </ul>

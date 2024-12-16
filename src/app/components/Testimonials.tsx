@@ -1,3 +1,4 @@
+import Image from "next/image";
 const Testimonials: React.FC = () => (
     <section className="py-10 bg-gray-50">
       <div className="text-center">
@@ -11,8 +12,14 @@ const Testimonials: React.FC = () => (
             pellentesque bibendum non dui volutpat fringilla bibendum.
           </p>
           <div className="flex items-center mt-4">
-            <div className="w-12 h-12 bg-gray-300 rounded-full"></div>
-            <div className="ml-4">
+
+            <div >
+              <Image
+                src="/m1.jpg"
+                width={40}  
+                height={40}
+                alt="Alamin Hasan"  
+              />
               <h4 className="font-bold">Alamin Hasan</h4>
               <p className="text-gray-500 text-sm">Food Specialist</p>
             </div>

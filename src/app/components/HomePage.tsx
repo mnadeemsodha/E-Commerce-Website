@@ -36,7 +36,7 @@ const HomePageComponent: React.FC<HomePageProps> = () => {
             <Image src="/category-2.jpg" alt="Category 2" className={styles.categoryImage} />
             <h3 className={styles.categoryTitle}>Category 2</h3>
           </div>
-          {/* Add more category items as needed */}
+          
         </div>
       </div>
 
@@ -68,14 +68,12 @@ const HomePageComponent: React.FC<HomePageProps> = () => {
             </p>
             <button className={styles.latestDishButton}>Order Now</button>
           </div>
-          {/* Add more latest dish items as needed */}
+          
         </div>
       </div>
-
-      {/* Add more sections as needed, like testimonials, contact section, etc. */}
-
+     
       <footer className={styles.footer}>
-        {/* Footer content */}
+        
       </footer>
     </div>
   );

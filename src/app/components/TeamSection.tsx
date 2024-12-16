@@ -6,7 +6,7 @@ const TeamSection: FC = () => (
         <p className="mt-2 text-gray-600">Meet our amazing team</p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-8 px-6">
-        {['Mark Henry', 'Lucky Helen', 'Moon Henry', 'Tom Morrow'].map((name) => (
+        {[  'Mark Henry', 'Lucky Helen', 'Moon Henry', 'Tom Morrow'].map((name) => (
           <div className="text-center" key={name}>
             <div className="w-24 h-24 mx-auto bg-gray-300 rounded-full"></div>
             <h3 className="mt-4 font-bold">{name}</h3>
