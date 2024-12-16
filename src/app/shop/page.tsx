@@ -80,7 +80,7 @@ const Shop = () => {
                 {
                   name: "Burger",
                   price: "$21.00",
-                  imgSrc: "/burger.png",
+                  imgSrc: "/b1.png",
                   width: 400,
                   height: 400
                 },
